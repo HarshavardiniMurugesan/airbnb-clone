@@ -1,0 +1,52 @@
+.banner{
+    background: url('https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg');
+    position:  center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+
+}
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10vh;
+    padding-right: 50px;
+    padding-bottom: 48px;
+    width: 300px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__search > Button{
+    background-color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    color: #ff7799;
+}
+
+.banner__info > Button{
+    background-color: #ff7799;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.banner__info > Button:hover{
+    background-color: white;
+    color: #ff7799;
+}
+
+.banner__info> h5{
+    margin-top: 10px;
+}
+
+.banner__search>Button:hover{
+    background-color: white;
+    color: #ff7799;
+}
